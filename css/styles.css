@@ -4,6 +4,7 @@
     color: white;
     padding-top: 100px;
     margin: 40px 40px 40px 40px;
+    background-size: cover;
 }
 
 #mouse {
@@ -75,7 +76,6 @@ h1 {
     background-color: transparent;
     color: white;
     font-weight: bold;
-    opacity: 1;
 }
 
 textarea {
