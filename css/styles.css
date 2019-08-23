@@ -23,3 +23,32 @@
     padding: 100px 100px 100px 100px;
     margin: 20px 20px 20px 20px;
 }
+
+.about {
+    text-align: center;
+    padding: 100px 100px 100px 100px;
+    margin: 20px 20px 20px 20px;
+}
+
+.portfolio {
+    padding-bottom: 20px;
+}
+
+.contact {
+    padding: 100px 100px 100px 100px;
+    margin: 20px 20px 20px 20px;
+    background-image: url("https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/c_image.jpg?raw=true");
+    color: white;
+    text-align: center;
+}
+
+#img1,
+#img2,
+#img3,
+#img4,
+#img5,
+#img6,
+#img7,
+#img8 {
+    border-bottom: 1px solid black;
+}
