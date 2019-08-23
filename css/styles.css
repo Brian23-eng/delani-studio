@@ -75,4 +75,9 @@ h1 {
     background-color: transparent;
     color: white;
     font-weight: bold;
+    opacity: 1;
+}
+
+textarea {
+    resize: none;
 }
