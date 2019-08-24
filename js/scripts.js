@@ -10,4 +10,9 @@ $(document).ready(function() {
         $(".pic2").slideToggle(1000);
     });
 
+    $(".bran").click(function() {
+        $(".hide-in2").slideToggle(1000);
+        $(".pic3").slideToggle(1000);
+    });
+
 });

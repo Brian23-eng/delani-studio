@@ -85,10 +85,8 @@ textarea {
     background-color: transparent;
 }
 
-.hide-in {
-    display: none;
-}
-
-.hide-in1 {
+.hide-in,
+.hide-in1,
+.hide-in2 {
     display: none;
 }
