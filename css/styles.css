@@ -53,7 +53,8 @@
 #img6,
 #img7,
 #img8 {
-    border-bottom: 1px solid black;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .row {
@@ -74,18 +75,16 @@ h1 {
     text-align: center;
 }
 
-#name,
-#email,
-#area {
-    background-color: transparent;
-    color: white;
-    font-weight: bold;
-}
-
 textarea {
     resize: none;
 }
 
-#hide-in {
+#name,
+#email,
+#area {
+    background-color: transparent;
+}
+
+.hide-in {
     display: none;
 }
