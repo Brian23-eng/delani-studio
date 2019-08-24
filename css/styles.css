@@ -71,8 +71,15 @@ h1 {
     padding-bottom: 50px;
 }
 
-#move {
+footer {
     text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+
+.pic1,
+.pic2,
+.pic3 {
+    padding-top: 50px;
 }
 
 textarea {
