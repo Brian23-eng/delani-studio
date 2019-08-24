@@ -19,11 +19,12 @@ $(document).ready(function() {
     //         $(".pic1").toggle();
     //     });
 
-    $(".pic1").click(function() {
+    $(".col-md-4").click(function() {
         $(".hide-in").slideToggle()
-    });
-
-    $(".hide-in").click(function() {
         $(".pic1").slideToggle()
     });
+
+    // $(".hide-in").click(function() {
+    //     $(".pic1").slideToggle()
+    // });
 });
