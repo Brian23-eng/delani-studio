@@ -18,7 +18,30 @@ $(document).ready(function() {
     $("#mouse").click(function() {
 
         $("#services").fadeToggle(1000);
-        $("#services").fadeToggle(1000);
+        $("#services").fadeToggle(5000);
     });
 
 });
+
+
+function validate() {
+
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    var text = document.getElementById("area").value;
+
+    if (name === "") {
+        alert("Please fill in your name");
+        return false;
+
+    } else if (email === "") {
+        alert("Please insert your email");
+        return false;
+
+    } else {
+        if (text === "") {
+
+            alert("there is no text to submit");
+        }
+    }
+}
