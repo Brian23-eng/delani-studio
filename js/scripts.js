@@ -15,4 +15,10 @@ $(document).ready(function() {
         $(".pic3").slideToggle(1000);
     });
 
+    $("#mouse").click(function() {
+
+        $("#services").fadeToggle(1000);
+        $("#services").fadeToggle(1000);
+    });
+
 });
