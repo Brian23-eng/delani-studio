@@ -114,8 +114,141 @@ textarea {
     justify-content: center;
 }
 
+.imge5-layer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imge6-layer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imge7-layer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imge8-layer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imge1-layer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imge2-layer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imge3-layer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .feta:hover,
 .imge4-layer {
+    visibility: visible;
+    opacity: 0.8;
+}
+
+.leta:hover,
+.imge3-layer {
+    visibility: visible;
+    opacity: 0.8;
+}
+
+.beta:hover,
+.imge2-layer {
+    visibility: visible;
+    opacity: 0.8;
+}
+
+.meta:hover,
+.imge1-layer {
+    visibility: visible;
+    opacity: 0.8;
+}
+
+.keta:hover,
+.imge5-layer {
+    visibility: visible;
+    opacity: 0.8;
+}
+
+.weta:hover,
+.imge6-layer {
+    visibility: visible;
+    opacity: 0.8;
+}
+
+.seta:hover,
+.imge7-layer {
+    visibility: visible;
+    opacity: 0.8;
+}
+
+.reta:hover,
+.imge8-layer {
     visibility: visible;
     opacity: 0.8;
 }
@@ -137,11 +270,193 @@ textarea {
     transition: all 0.5s ease;
 }
 
+#imge3 {
+    position: absolute;
+    top: 0;
+    color: red;
+    font-weight: bolder;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    z-index: 10;
+    opacity: 0.1;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#imge2 {
+    position: absolute;
+    top: 0;
+    color: black;
+    font-weight: bolder;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    z-index: 10;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#imge1 {
+    position: absolute;
+    top: 0;
+    color: white;
+    font-weight: bolder;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    z-index: 10;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#imge5 {
+    position: absolute;
+    top: 0;
+    color: black;
+    font-weight: bolder;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    z-index: 10;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#imge6 {
+    position: absolute;
+    top: 0;
+    color: black;
+    font-weight: bolder;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    z-index: 10;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#imge7 {
+    position: absolute;
+    top: 0;
+    color: white;
+    font-weight: bolder;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    z-index: 10;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#imge8 {
+    position: absolute;
+    top: 0;
+    color: black;
+    font-weight: bolder;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    z-index: 10;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
 #imge4:hover {
+    opacity: 1;
+}
+
+#imge3:hover {
+    opacity: 2;
+}
+
+#imge2:hover {
+    opacity: 1;
+}
+
+#imge1:hover {
+    opacity: 1;
+}
+
+#imge5:hover {
+    opacity: 1;
+}
+
+#imge6:hover {
+    opacity: 1;
+}
+
+#imge7:hover {
+    opacity: 1;
+}
+
+#imge8:hover {
     opacity: 1;
 }
 
 .feta:hover,
 #imge4 {
+    transform: translateY(0);
+}
+
+.leta:hover,
+#imge3 {
+    transform: translateY(0);
+}
+
+.beta:hover,
+#imge2 {
+    transform: translateY(0);
+}
+
+.meta:hover,
+#imge1 {
+    transform: translateY(0);
+}
+
+.keta:hover,
+#imge5 {
+    transform: translateY(0);
+}
+
+.weta:hover,
+#imge6 {
+    transform: translateY(0);
+}
+
+.seta:hover,
+#imge7 {
+    transform: translateY(0);
+}
+
+.reta:hover,
+#imge8 {
     transform: translateY(0);
 }
