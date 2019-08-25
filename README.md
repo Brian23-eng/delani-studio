@@ -1,6 +1,6 @@
 # Delani Studio
 ## Project Description
-The project is basically a webpage that showcases different projects that delaini studio has done so far and their social accounts where one can find and interact with their other projects.
+The project is basically a webpage that showcases different projects that delani studio has done so far and their social accounts where one can find and interact with their other projects.
 
 ## Authors
 * Brian23-eng

@@ -21,11 +21,61 @@ $(document).ready(function() {
         $("#services").fadeToggle(5000);
     });
 
-    $("#feta").hover(function() {
+    $(".imge4-layer").hover(function() {
 
-        $("imge1").fadeToggle();
-    });
+        $("#imge4").fadeOut(1000);
+        $("#imge4").fadeIn();
 
+    })
+
+    $(".imge5-layer").hover(function() {
+
+        $("#imge5").fadeOut(1000);
+        $("#imge5").fadeIn();
+
+    })
+
+    $(".imge6-layer").hover(function() {
+
+        $("#imge6").fadeOut(1000);
+        $("#imge6").fadeIn();
+
+    })
+
+    $(".imge7-layer").hover(function() {
+
+        $("#imge7").fadeOut(1000);
+        $("#imge7").fadeIn();
+
+    })
+
+    $(".imge8-layer").hover(function() {
+
+        $("#imge8").fadeOut(1000);
+        $("#imge8").fadeIn();
+
+    })
+
+    $(".imge1-layer").hover(function() {
+
+        $("#imge1").fadeOut(1000);
+        $("#imge1").fadeIn();
+
+    })
+
+    $(".imge2-layer").hover(function() {
+
+        $("#imge2").fadeOut(1000);
+        $("#imge2").fadeIn();
+
+    })
+
+    $(".imge3-layer").hover(function() {
+
+        $("#imge3").fadeOut(1000);
+        $("#imge3").fadeIn();
+
+    })
 });
 
 
