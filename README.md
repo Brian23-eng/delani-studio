@@ -15,7 +15,7 @@ The project is basically a webpage that showcases different projects that delani
 |What we do section| On clicking the images, the image   slide toggles releasing the paragraphs then toggles back on clicking the paragraphs.
 |The social icon| when you click each icon they take you to the respective social media they represent.
 |The form | It alerts the user if they leave a section blank and alerts them on recieving their messages.
-|
+|Portfolio | The images show description paragraph when the  cusor is hovered over them revealing the text and then the text fades out slowly
 
 ## Technologies used
 * HTML
