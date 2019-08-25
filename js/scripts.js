@@ -35,13 +35,16 @@ function validate() {
         return false;
 
     } else if (email === "") {
-        alert("Please insert your email");
+        alert("Please insert your email!");
         return false;
 
-    } else {
-        if (text === "") {
+    } else if (text === "") {
 
-            alert("there is no text to submit");
-        }
+        alert("There is no text to submit!");
+    } else {
+
+        alert("We have recived your message dear " + name + " of " + email + ", " + " and we will get back to you");
+
+        event.preventDefault()
     }
-}
+};
