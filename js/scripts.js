@@ -21,6 +21,11 @@ $(document).ready(function() {
         $("#services").fadeToggle(5000);
     });
 
+    $("#feta").hover(function() {
+
+        $("imge1").fadeToggle();
+    });
+
 });
 
 

@@ -100,3 +100,48 @@ textarea {
 .hide-in2 {
     display: none;
 }
+
+.imge4-layer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feta:hover,
+.imge4-layer {
+    visibility: visible;
+    opacity: 0.8;
+}
+
+#imge4 {
+    position: absolute;
+    top: 0;
+    color: white;
+    font-weight: 600;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    z-index: 10;
+    opacity: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#imge4:hover {
+    opacity: 1;
+}
+
+.feta:hover,
+#imge4 {
+    transform: translateY(0);
+}
