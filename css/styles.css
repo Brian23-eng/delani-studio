@@ -389,34 +389,13 @@ textarea {
     transition: all 0.5s ease;
 }
 
-#imge4:hover {
-    opacity: 1;
-}
-
-#imge3:hover {
-    opacity: 2;
-}
-
-#imge2:hover {
-    opacity: 1;
-}
-
-#imge1:hover {
-    opacity: 1;
-}
-
-#imge5:hover {
-    opacity: 1;
-}
-
-#imge6:hover {
-    opacity: 1;
-}
-
-#imge7:hover {
-    opacity: 1;
-}
-
+#imge4:hover,
+#imge3:hover,
+#imge2:hover,
+#imge1:hover,
+#imge5:hover,
+#imge6:hover,
+#imge7:hover,
 #imge8:hover {
     opacity: 1;
 }
