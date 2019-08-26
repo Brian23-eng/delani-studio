@@ -31,6 +31,7 @@ The project is basically a webpage that showcases different projects that delani
 3. Open index.html
 
 ## Link to live site
+* https://brian23-eng.github.io/delani-studio
 
 ## Support and contact details
 For any questions,concerns or collaboration ,please feel free to contact me through my email address: b.odhiambo.bo@gmail.com
