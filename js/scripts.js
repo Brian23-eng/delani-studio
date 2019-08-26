@@ -98,8 +98,8 @@ function validate() {
         alert("There is no text to submit!");
     } else {
 
-        alert("We have recived your message dear " + name + " of " + email + ", " + " and we will get back to you");
+        alert("We have recieved your message dear " + name + " and we will get back to you");
 
-        event.preventDefault()
-    }
+
+    };
 };
